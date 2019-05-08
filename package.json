@@ -1,0 +1,24 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "Đây là file CSS và thư viện của Sky Albert Channel trong playlist",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdkhoasg/libNodeJsToDoApp.git"
+  },
+  "author": "ZoSo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdkhoasg/libNodeJsToDoApp/issues"
+  },
+  "homepage": "https://github.com/tdkhoasg/libNodeJsToDoApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
