@@ -18,9 +18,9 @@
         <button type="submit">Add Work</button>
     </form>
     <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+        <% for (let i = 0;i < todo.length; i++){ %>
+            <li><%= todo[i].item %></li>
+        <% } %>
     </ul>
 </div>
 
